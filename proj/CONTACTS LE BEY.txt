@@ -1,0 +1,42 @@
+insert into contact_no values('M2011100',9876543210);
+insert into contact_no values('M2011100',9876543201);
+insert into contact_no values('M2011100',9876543200);
+insert into contact_no values('M2011104',8877665544);
+insert into contact_no values('M2011104',8866774455);
+insert into contact_no values('M2011102',7654321900);
+insert into contact_no values('M2011103',1234567890);
+insert into contact_no values('M2011101',2345678901);
+insert into contact_no values('W2013100',4567890123);
+insert into contact_no values('W2013101',5678901234);
+insert into contact_no values('W2013102',3456789012);
+insert into contact_no values('W2013103',2345678901);
+insert into contact_no values('W2013104',0987654321);
+insert into contact_no values('W2013104',0876543921);
+insert into contact_no values('F2011823',0110223366);
+insert into contact_no values('F2011234',0011223344);
+insert into contact_no values('F2011502',5566778899);
+insert into contact_no values('F2011567',9922113344);
+insert into contact_no values('F2011345',2233447788);
+insert into contact_no values('H2011879',5588110022);
+insert into contact_no values('F2011948',2233001199);
+insert into contact_no values('F2011765',1188442233);
+insert into contact_no values('F2011666',3387654011);
+insert into contact_no values('F2011802',1122330099);
+
+
+
+
+
+
+-------employee login------------
+
+insert into employee_login values('M2011100','m100');
+insert into employee_login values('M2011101','m101');
+insert into employee_login values('M2011102','m102');
+insert into employee_login values('M2011103','m103');
+insert into employee_login values('M2011104','m104');
+insert into employee_login values('W2013100','m100');
+insert into employee_login values('W2013101','m101');
+insert into employee_login values('W2013102','m102');
+insert into employee_login values('W2013103','m103');
+insert into employee_login values('W2013104','m104');

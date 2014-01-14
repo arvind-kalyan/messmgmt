@@ -1,0 +1,35 @@
+MANAGER
+--------
+
+--ACTION LISTENER FOR SALARY BUTTON
+SELECT m.salary from MESS_EMPLOYEE m where m.id = login_id; 
+
+--ACTION LISTENER FOR LEAVES_COUNT BUTTON
+SELECT m.leaves_count from MESS_EMPLOYEE m where m.id = login_id;
+
+--ACTION LISTENER FOR  LEAVES BUTTON
+SELECT * from LEAVES l where l.id = login_id;
+
+--ACTION LISTENR FOR EMPLOYEE DETAILS BUTTON 
+SELECT p.name, m.id , m.mess_incharge from MANAGER m, person p where m.id = login_id and p.id=login_id;
+
+
+
+
+WORKER
+--------
+
+
+--ACTION LISTENER FOR SALARY BUTTON
+SELECT m.salary from MESS_EMPLOYEE m where m.id = login_id;
+
+
+--ACTION LISTENER FOR LEAVES_COUNT BUTTON
+SELECT m.leaves_count from MESS_EMPLOYEE m where m.id = login_id;
+
+
+--ACTION LISTENER FOR  LEAVES BUTTON
+SELECT * FROM LEAVES l where l.id = login_id;
+
+--ACTION LISTENR FOR EMPLOYEE DETAILS BUTTON 
+SELECT p.name, m.id , m.mess_alloted from worker m, person p where m.id = login_id and p.id=login_id; 
